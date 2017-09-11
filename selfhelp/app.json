@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/my/index",
+    
+    "pages/billing/index",
+    
+    
+    "pages/computer/index",
+    
+    "pages/wallet/index",
+    
+    
+    "pages/password/index",
+    "pages/index/index",
+    "pages/charge/index"
+    
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#0B8622",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "微机室自助系统",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
+}

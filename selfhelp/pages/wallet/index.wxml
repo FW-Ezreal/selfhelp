@@ -1,0 +1,27 @@
+<!--pages/wallet/index.wxml-->
+<view class="container">
+  <view class="overage">
+    <view >
+      <text class="overage-header">我的余额（元）</text>
+    </view>
+    <view >
+      <text class="overage-content">{{money}}</text>
+    </view>
+    <view >
+      <text class="overage-desc">余额说明</text>
+    </view>
+  </view>
+  <button class="btn-charge" bindtap="movetoCharge">充值</button>
+  <view class="my-ticket tapbar">
+    <text>我的抵押券</text>
+    <text><text>{{ticket}}</text>张></text>
+  </view>
+  <view class="my-deposit tapbar">
+    <text>包月办理</text>
+    <text><text class="color">费用减-25%</text>></text>
+  </view>
+  <view class="my-about tapbar">
+    <text>想要了解微机室自助系统</text>
+    <text>></text>
+  </view>  
+</view>

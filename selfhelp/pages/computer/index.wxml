@@ -1,0 +1,13 @@
+<!--pages/computer/index.wxml-->
+<view class="container">
+  <view class="choose">
+    <view class="title">请选择机位</view>
+    <view class="wrapper">
+      <block wx:for="{{itemsValue}}" wx:key="{{item}}">
+        <view class="comp">
+          <view class="{{item.checked}}" id="{{item.value}}" bindtap="todo">{{item.value}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

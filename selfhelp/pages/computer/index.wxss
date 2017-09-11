@@ -1,0 +1,44 @@
+/* pages/computer/index.wxss */
+.container{
+  width: 100%;
+  background-color: #f2f2f2; 
+}
+.title{
+  background-color: #f2f2f2;
+   padding: 30rpx 0 30rpx ; 
+  font-size: 40rpx;
+  text-align: center;
+  font-weight: bold
+}
+.choose{
+  background-color: #fff;
+}
+.wrapper{
+  padding: 50rpx;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around ;
+   
+} 
+.comp{
+  width: 30%;
+  height: 100rpx;
+  margin-top: 36rpx;
+  border: 2rpx solid #0B8622;
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 7px;
+}
+.true{
+  background-color: #0B8622;
+  border-radius: 6px;
+}
+.btn{
+  width: 90%;
+  margin-top: 40rpx;
+  background-color: #0B8622;
+}
+.mine{
+  background-color: #0B8622;
+  
+}

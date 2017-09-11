@@ -1,0 +1,23 @@
+<!--pages/billing/index.wxml-->
+<view class="container">
+  <view class="number">
+    <text>当前电脑座位编号：{{number}}</text>
+  </view>
+  <view class="time">
+    <view class="time-title">{{actionText}}</view>
+    <view class="time-content">
+      <text class="content">{{hours}}</text>:
+      <text class="content">{{minutes}}</text>:
+      <text class="content">{{seconds}}</text>
+    </view>
+  </view>
+  <view class="alert" wx:if="{{show}}">
+    <view class="use-time">上机时间   :  {{usetime}}</view>
+    <view class="use-money">花费金额   :  {{usemoney}}元</view>
+  </view>
+  <view class="enduse">
+   <button type="warn" bindtap="enduse" disabled="{{clickBtn}}">下机</button>
+   <button type="primary" bindtap="movetoindex">回到主页</button>
+  </view>
+
+</view>

@@ -1,0 +1,13 @@
+<!--pages/password/index.wxml-->
+<view class="container">
+  <view class="password-title">
+    <text>开锁密码</text>
+  </view>
+  <view class="password-content">
+    <text>{{password}}</text>
+  </view>
+  <view class="tips">
+    请使用密码上机，<text class="tip">{{time}}</text>秒后开始计费
+  </view>
+
+</view>

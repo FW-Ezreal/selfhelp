@@ -1,0 +1,28 @@
+<!--pages/wallet/index.wxml-->
+<view class="container">
+  <view class="user-info">
+    <block wx:if="{{userInfo.userUrl !==''}}">
+      <view class="img">
+        <image src="{{userInfo.userUrl}}"></image>
+      </view> 
+      <text class="user-name">{{userInfo.nickname}}</text>  
+    </block>
+  </view>
+  <block wx:if="{{userInfo.userUrl !==''}}">
+    <view class="my-wallet" bindtap="movetoWallet">
+      <text>我的钱包</text>
+      <text>></text>
+    </view>
+    <view class="find-computer" bindtap="movetoComputer">
+      <text>寻找空座</text>
+      <text>></text>
+    </view>
+  </block>
+  <block wx:if="{{userInfo.userUrl ==''}}">
+    <view class="icon">
+      微机室自助系统
+      <!-- <image src=""></image> -->
+    </view>
+  </block>    
+  <button type="{{btnType}}" class="btn-login" bindtap="login">{{actionText}}</button>
+</view>

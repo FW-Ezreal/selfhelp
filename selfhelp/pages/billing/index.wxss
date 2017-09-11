@@ -1,0 +1,42 @@
+/* pages/billing/index.wxss */
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.number, .enduse{
+  flex:2;
+  width: 100%;
+  text-align: center;
+  padding: 60rpx 0;
+} 
+.time{
+  flex: 6;
+  width: 100%;
+  text-align: center;
+}
+.time .time-content{
+  font-size: 100rpx;
+}
+.enduse button{
+  margin-top: 40rpx;
+  width: 90%;
+}
+.content{
+  display: inline-block;
+  width: 140rpx;
+  text-align: center
+}
+.alert{
+  width: 90%;
+  height: 300rpx;
+}
+.use-time,.use-money{
+  margin-top: 50rpx;
+  font-size: 60rpx;
+  text-indent: 3rem
+
+}
